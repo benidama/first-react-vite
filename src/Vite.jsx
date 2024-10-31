@@ -1,4 +1,5 @@
 import React from "react";
+import Newjan from "./Newjan";
 
 const Vite = () => {
   return (
@@ -20,6 +21,9 @@ const Vite = () => {
         </p>
       </div>
       <h3>This is my first practice about react vite with tailwind</h3>
+      <br />
+      <Newjan />
+      <br />
       <p className="w-[500px] text-center">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus,
         enim! Aut ut ratione dignissimos, animi mollitia nam reiciendis et enim

@@ -23,7 +23,7 @@ function App() {
           className="text-center text-red-500"
           onClick={() => setCount((count) => count + 1)}
         >
-          count is {count}
+          count is <span className="text-cyan-600 text-3xl"> {count}</span>
         </button>
       </div>
       <Vite />
