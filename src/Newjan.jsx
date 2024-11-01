@@ -9,6 +9,10 @@ const Newjan = () => {
       this.age + " " + this.hope;
     },
   };
+
+  let text = "HELLO WORLD";
+  let char = text.charAt(0);
+  let charg = text.charCodeAt(0);
   return (
     <div>
       <h1 className="text-blue-700">
@@ -18,6 +22,9 @@ const Newjan = () => {
       <P>
         now, {obje.age} and name {Object.values(obje)}
       </P>
+      <p>
+        I have {charg} and my favorite letter is {char}.
+      </p>
     </div>
   );
 };
