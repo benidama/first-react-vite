@@ -19,9 +19,9 @@ const Newjan = () => {
         My name is {obje.name} and I am age is {obje.age}. My name now was
         deleted {delete obje.name}.
       </h1>
-      <P>
+      <p>
         now, {obje.age} and name {Object.values(obje)}
-      </P>
+      </p>
       <p>
         I have {charg} and my favorite letter is {char}.
       </p>
