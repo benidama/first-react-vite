@@ -20,6 +20,20 @@ const Arrays = () => {
         {flating.flat().join(",")}.
       </h3>
       <p>Lorem ipsum dolor sit amet {remove}.</p>
+      <h1>How do you do my friends?</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta impedit
+        cupiditate reiciendis repellendus dolores quibusdam recusandae. Officiis
+        quisquam laboriosam consequatur voluptas, placeat architecto in, quos
+        repellat at eaque officia dignissimos? Quasi delectus vero eius.
+      </p>
+      <br />
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
+        obcaecati laudantium aperiam. Eos expedita, dolore totam neque molestias
+        et itaque? Iure sed laboriosam reiciendis necessitatibus eum architecto
+        odio ipsa magnam consectetur nobis?
+      </p>
     </div>
   );
 };
