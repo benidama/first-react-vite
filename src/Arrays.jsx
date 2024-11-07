@@ -6,6 +6,7 @@ const Arrays = () => {
     ["Paul", "Ntaki", "Gad"],
     ["Yuhi", "Claude"],
   ];
+  const foreac = arrayReact.forEach((el) => el + "ok");
   const map = arrayReact.map((f) => <p>{f}</p>);
   return (
     <div className="flex flex-col justify-center items-center">
@@ -14,6 +15,7 @@ const Arrays = () => {
         Hello world, my name is {arrayReact[3]} and I have {arrayReact.length}{" "}
         children
       </p>
+      <p>{foreac}</p>
       <h3>
         My name is {flating[1][1]} and my brothers are{" "}
         {flating.flat().join(",")}.
