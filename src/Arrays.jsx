@@ -6,7 +6,7 @@ const Arrays = () => {
     ["Paul", "Ntaki", "Gad"],
     ["Yuhi", "Claude"],
   ];
-  const foreac = arrayReact.forEach((el) => el + "ok");
+  const foreac = arrayReact.forEach((el, yu, ko) => el + "ok");
   const map = arrayReact.map((f) => <p>{f}</p>);
   return (
     <div className="flex flex-col justify-center items-center">
@@ -25,12 +25,11 @@ const Arrays = () => {
       <p className="text-xs w-[630px] text-center">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta impedit
         cupiditate reiciendis repellendus dolores quibusdam recusandae. Officiis
-        quisquam laboriosam consequatur voluptas, placeat architecto in, quos
-        repellat at eaque officia dignissimos? Quasi delectus vero eius.
+        quisquam laboriosam repellat at eaque officia dignissimos? Quasi
+        delectus vero eius.
       </p>
       <br />
       <p>
-        This is the list of my friends:
         <span className="text-blue-500">{map}</span>
       </p>
       <br />
@@ -39,6 +38,13 @@ const Arrays = () => {
         obcaecati laudantium aperiam. Eos expedita, dolore totam neque molestias
         et itaque? Iure sed laboriosam reiciendis necessitatibus eum architecto
         odio ipsa magnam consectetur nobis?
+      </p>
+      <br />
+      <p className="text-blue-600 w-[700px]">
+        Hello my boys, I love you all from youngest to oldest. My objective is
+        to make my village a very biggest one in the country, but I need your
+        advice's and I hope everything will be ok! That is why I need everyone
+        to bring his/her idea.
       </p>
     </div>
   );

@@ -15,9 +15,9 @@ const Vite = () => {
 
         <p className="text-xs text-center text-orange-700 w-[430px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-          expedita fugiat illum excepturi asperiores quia dicta amet, suscipit
-          iusto consectetur inventore velit optio rerum mollitia dolorum
-          pariatur ipsum repellat aliquam libero quos commodi? Possimus.
+          expedita fugiat, suscipit iusto consectetur inventore velit optio
+          rerum mollitia dolorum pariatur ipsum repellat aliquam libero quos
+          commodi? Possimus.
         </p>
       </div>
       <h3>This is my first practice about react vite with tailwind</h3>
@@ -27,8 +27,7 @@ const Vite = () => {
       <p className="w-[500px] text-center">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus,
         enim! Aut ut ratione dignissimos, animi mollitia nam reiciendis et enim
-        harum tempore asperiores, necessitatibus modi nobis quae sit perferendis
-        unde temporibus aliquam, corporis consectetur obcaecati. Ipsa at
+        harum tempore asperiores, corporis consectetur obcaecati. Ipsa at
         necessitatibus hic dicta voluptatem aspernatur ipsam quam sed?
       </p>
     </div>
