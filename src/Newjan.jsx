@@ -25,6 +25,11 @@ const Newjan = () => {
       <p>
         I have {charg} and my favorite letter is {char}.
       </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+        iste! Atque ut odit eos corrupti repudiandae id, mollitia beatae culpa!
+        Deleniti, ullam? Consequatur!
+      </p>
     </div>
   );
 };

@@ -8,6 +8,7 @@ const Arrays = () => {
     ["Paul", "Ntaki", "Gad"],
     ["Yuhi", "Claude"],
   ];
+
   const foreac = arrayReact.map((el, yu, ko) => el + " " + "ok").join(", ");
   const map = arrayReact.map((f) => <p>{f}</p>);
   const flter = arrayReact.filter((el) => el.length > 6).join();
@@ -43,9 +44,8 @@ const Arrays = () => {
       <br />
       <p className="text-xs w-[650px]">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
-        obcaecati laudantium aperiam. Eos expedita, dolore totam neque molestias
-        et itaque? Iure sed laboriosam reiciendis necessitatibus eum architecto
-        odio ipsa magnam consectetur nobis?
+        obcaecati laudantium aperiam. Iure sed laboriosam reiciendis
+        necessitatibus eum architecto odio ipsa magnam consectetur nobis?
       </p>
       <br />
       <p className="text-blue-600 w-[700px]">
